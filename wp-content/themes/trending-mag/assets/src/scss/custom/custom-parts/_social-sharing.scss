@@ -1,0 +1,110 @@
+
+
+// social sharing 
+
+.wishful-social-sharing ul li.fb a {
+
+	background:$facebook;
+}
+
+.wishful-social-sharing ul li.tw a {
+
+	background:$twitter;
+}
+
+.wishful-social-sharing ul li.pin a {
+
+	background:$pinterest;
+}
+
+.wishful-social-sharing ul li.linkedin a {
+
+	background:$linkedin;
+}
+
+.wishful-social-sharing ul li.vk a {
+
+	background:$vk;
+}
+
+.wishful-social-sharing ul li.reddit a {
+
+	background:$reddit;
+}
+
+
+// inline social sharing
+
+.wishful-social-sharing ul {
+
+	list-style: none;
+	font-size: 0;
+	margin:0;
+	padding:0;
+}
+
+.wishful-social-sharing ul li {
+
+	display:inline-block;
+	font-size:0;
+}
+
+.wishful-social-sharing ul li a {
+
+	font-size:14px;
+	color:$white;
+}
+
+.wishful-social-sharing .en-inline-social-sharing {
+
+	margin-bottom: 40px;
+}
+
+.wishful-social-sharing .en-inline-social-sharing li a {
+
+	display:inline-block;
+	margin:0;
+	padding:0;
+	line-height: 35px;
+    width: 70px;
+    height: 35px;
+	padding:0;
+	text-align:center;
+}
+
+
+// Sticky social 
+
+.wishful-social-sharing .en-sticky-social-sharing {
+
+	position: fixed;
+    left: 0;
+    top: 50%;
+    z-index: 21;
+    max-width: 50px;
+    padding: 0;
+    text-align: center;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.wishful-social-sharing .en-sticky-social-sharing ul li {
+
+	display:inline-block;
+}
+
+.wishful-social-sharing .en-sticky-social-sharing ul li a {
+
+	display: inline-block;
+	font-size:15px;
+    padding: 0;
+    color:$white;
+    line-height: 50px;
+    width: 50px;
+    height: 50px;
+}
+
+.wishful-social-sharing .en-sticky-social-sharing ul li a:hover {
+
+	margin-left: -10px;
+}

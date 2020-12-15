@@ -1,0 +1,82 @@
+/*!
+Theme Name: Trending Mag
+Text Domain: trending-mag
+Version: 1.0.8
+Requires at least: 4.8
+Tested up to: 5.5
+Requires PHP: 5.6
+Theme URI: https://www.wishfulthemes.com/themes/trending-mag/
+Author: wishfulthemes
+Author URI: https://wishfulthemes.com/
+Description: Trending Mag is the best magazine theme for wordpress which provides the best in class layout and responsive designs. If you are looking for demo content & support kindly do log-on to https://wishfulthemes.com/
+License: GNU General Public License v3
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+Tags: entertainment, news, blog, custom-background, custom-colors, custom-header, custom-logo, custom-menu, one-column , featured-images, footer-widgets, full-width-template, grid-layout, right-sidebar, left-sidebar, theme-options, threaded-comments, translation-ready, two-columns
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+Normalizing styles have been helped along thanks to the fine work of
+Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
+*/
+
+
+/*
+ * ====================
+ * Accessibility fixes.
+ * ===================
+ */
+
+/*.using-tab-nav a:focus,
+.using-tab-nav button:focus,
+.using-tab-nav input:focus,
+.using-tab-nav textarea:focus {
+
+    outline: 5px auto -webkit-focus-ring-color !important;
+}*/
+.rm-single-post-content-area p a,
+.comment-content p a,
+.comment-content li a,
+.textwidget a
+{
+    text-decoration: underline;
+}
+a:focus,
+.site-navigation ul li a:focus {
+
+    text-decoration: underline;
+}
+
+a:focus,
+button:focus,
+input:focus,
+textarea:focus {
+
+    outline: 5px auto -webkit-focus-ring-color !important;
+}
+
+.menu-item-has-children.focus .sub-menu {
+
+    opacity:1 !important;
+    visibility:visible !important;
+}
+
+.screen-reader-text:hover, .screen-reader-text:active, .screen-reader-text:focus {
+
+    font-size: 14px !important;
+}
+
+@media (max-width: 767px) {
+
+    .site-navigation ul li.menu-item-has-children a i,
+    .using-tab-nav .site-navigation ul li:focus-within .sub-menu {
+
+        display: inline-block !important;
+    }
+}
+
+/*
+ * ========================
+ * Accessibility fixes ends.
+ * ========================
+ */

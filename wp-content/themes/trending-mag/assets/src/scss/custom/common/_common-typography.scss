@@ -1,0 +1,281 @@
+
+// All common typohraphy & fonts 
+// Will be scaling font size on media query ( 1024px, 768px & 574px )
+
+
+// font family
+
+
+.site-title {
+
+	font-family:$primary_font_family;
+} 
+
+.widget .widget-title h3,
+.rm-post-widget .post-title h4,
+.related-posts .post-title h4 {
+
+	font-family:$secondary_font_family;
+}
+
+.rm-featured-cats .cat-post-count,
+.archive-page-wrap .cat-post-count,
+.error-page-entry .error-subtitle h3,
+.error-page-entry .error-header h1,
+.rm-custom-cats-widget span.cat-post-count {
+
+	font-family:'Halvetica', 'Halvetica Nue', 'Arial', 'Lato', 'Roboto', 'Times New Roman', Sans Serif;
+}
+
+
+// transforms 
+
+.rm-button-primary,
+.entry-metas ul li,
+.entry-metas ul li a,
+.entry-metas ul li span,
+.entry-cats ul li a,
+.read-more-button,
+.widget .widget-title h3,
+#gc-backtotop span.caption,
+.site-navigation > ul > li > a,
+.post-navigation .nav-links span,
+.error-page-entry .error-subtitle h3,
+.wp-block-search .wp-block-search__label,
+.rm-pagination nav.pagination .nav-links .page-numbers.next,
+.rm-pagination nav.pagination .nav-links .page-numbers.prev,
+.secondary-widget-area .rm-instagram-widget .follow-permalink a,
+.primary-widget-area .rm-instagram-widget .follow-permalink a  {
+
+	text-transform: uppercase;
+}
+
+
+// font style 
+
+
+q,
+blockquote {
+
+	font-style: italic;
+}
+
+
+// font weight 
+
+q,
+blockquote,
+.is-post-format span,
+.rm-post-widget .post-title h4,
+.related-posts .post-title h4,
+.woocommerce ul.cart_list li a, 
+.woocommerce ul.product_list_widget li a {
+
+	font-weight:normal;
+}
+
+q,
+blockquote,
+.rm-button-primary,
+.entry-metas ul li,
+.entry-metas ul li a,
+.entry-metas ul li span,
+.calendar_wrap caption,
+.rm-featured-cats .cat-post-count,
+.archive-page-wrap .cat-post-count,
+.secondary-widget-area .rm-instagram-widget .follow-permalink a {
+
+	font-weight:500;
+}
+
+
+.entry-cats ul li a,
+.read-more-button,
+#gc-backtotop span.caption,
+.site-navigation > ul > li > a,
+.post-navigation .nav-links span,
+.rm-pagination nav.pagination .nav-links .page-numbers.next,
+.rm-pagination nav.pagination .nav-links .page-numbers.prev,
+.primary-widget-area .rm-instagram-widget .follow-permalink a  {
+
+	font-weight:600;
+}
+
+.mastheader .site-title,
+.widget .widget-title h3 {
+
+	font-weight:bold;
+}
+
+.error-page-entry .error-header h1 {
+
+	font-weight:900;
+}
+
+
+// line height 
+
+
+.entry-metas ul li,
+.entry-metas ul li a,
+.entry-metas ul li span,
+#gc-backtotop span.caption,
+.wp-block-button__link,
+.wp-block-search .wp-block-search__button,
+.primary-widget-area .rm-instagram-widget .follow-permalink a {
+
+	line-height: 1;
+}
+
+.mastheader .site-title {
+
+	line-height:1.3;
+}
+
+.rm-post-widget .post-title h4,
+.related-posts .post-title h4,
+.post-navigation .nav-previous a,
+.post-navigation .nav-next a {
+
+	line-height:1.6;
+}
+
+
+// font sizes 
+
+.entry-metas ul li,
+.entry-metas ul li a,
+.entry-metas ul li span,
+.single-page-s2 .rm-breadcrumb .entry-metas ul li, 
+.single-page-s2 .rm-breadcrumb .entry-metas ul li a, 
+.single-page-s2 .rm-breadcrumb .entry-metas ul li span {
+
+	font-size: 11px;
+}
+
+.read-more-button{
+	font-size: 12px;
+}
+.entry-cats ul li a {
+
+	font-size: 10px;
+}
+
+.rm-button-primary,
+#gc-backtotop span.caption,
+.site-navigation > ul > li > a,
+.post-navigation .nav-links span,
+.wp-block-search .wp-block-search__label,
+.archive-page-wrap .cat-post-count,
+.rm-custom-cats-widget span.cat-post-count,
+.rm-pagination nav.pagination .nav-links .page-numbers,
+.primary-widget-area .rm-instagram-widget .follow-permalink a,
+.secondary-widget-area .rm-instagram-widget .follow-permalink a,
+.archive-page-wrap .mega-archive-box .rm-breadcrumb ul li a,
+.archive-page-wrap .mega-archive-box .rm-breadcrumb ul li,
+.archive-page-wrap .mega-archive-box .rm-breadcrumb ul li span  {
+
+	font-size: 13px;
+}
+
+.excerpt p,
+.rm-featured-cats a,
+.wp-block-button__link,
+.rm-breadcrumb ul li a,
+.footer .copyright-info p,
+.rm-breadcrumb ul li span,
+.entry-tags .post-tags a,
+.site-navigation ul li .sub-menu li a 
+.site-navigation ul li .children li a,
+.widget_recent_entries .post-date,
+.calendar_wrap caption,
+.wp-block-pullquote__citation, 
+.wp-block-pullquote cite, 
+.wp-block-pullquote footer,
+.wp-block-quote__citation, 
+.wp-block-quote cite, 
+.wp-block-quote footer,
+.rm-featured-cats .cat-post-count,
+.widget_search form input[type="search"],
+.mastheader .secondary-navigation ul li a,
+.wp-block-search .wp-block-search__button {
+
+	font-size: 14px;
+}
+
+
+.mastheader .search-trigger,
+.mastheader .canvas-trigger,
+.rm-post-widget .post-title h4,
+.related-posts .post-title h4,
+.woocommerce ul.cart_list li a,
+.rm-custom-cats-widget span.cat-name, 
+.woocommerce ul.product_list_widget li a {
+
+	font-size: 16px;
+}
+
+.widget .widget-title h3 {
+
+	font-size:17px;
+}
+
+
+.is-post-format span,
+.error-page-entry .error-subtitle h3 {
+
+	font-size: 18px;
+}
+
+
+
+.brick-item .post-title h3,
+.author-box .author-name h3,
+.rm-banner-s1 .post-title h2,
+.rm-blog-list-s3 .post-title h3,
+.related-posts .section-title h3 {
+
+	font-size:22px;
+}
+
+q,
+blockquote,
+.archive-page-wrap .mega-archive-box .page-title h1  {
+
+	font-size: 32px;
+}
+
+
+.rm-banner-s2 .post-title h2,
+.rm-banner-s3 .post-title h2 {
+
+	font-size: 34px;
+}
+
+.single-page-s4 .page-title h1 {
+
+	font-size:38px;
+}
+
+.rm-blog-list-s1 .post-title h3 {
+
+	font-size: 42px;
+}
+
+.page-title h1,
+.page-title h2,
+.page-title h3 {
+
+	font-size:46px;
+}
+
+.mastheader .site-title {
+
+	font-size: 52px;
+}
+
+.error-page-entry .error-header h1 {
+
+	font-size:112px;
+}
+

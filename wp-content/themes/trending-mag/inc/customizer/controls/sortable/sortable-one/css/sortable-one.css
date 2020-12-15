@@ -1,0 +1,71 @@
+/****************************************************************************************************
+ **************************************** Sortable One ***************************************
+ ***************************************************************************************************/
+
+.sortable-one-options-list li:not(.sortable-one-options-hideme) {
+    box-sizing: border-box;
+    width: 100%;
+    background-color: white;
+    padding: 10px;
+    border: 1px solid #e1e1e1;
+    position: relative;
+    margin-bottom: 1px;
+}
+.sortable-one-options-list li:not(.sortable-one-options-hideme) i {
+    cursor: move;
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.sortable-one-options-list .sortable-one-check-label{
+    cursor: pointer;
+    user-select: none;
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;
+}
+
+.sortable-one-options-list .sortable-one-check-label > input { /* HIDE ORG CHECKBOX */
+  position: absolute;
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* CHECKBOX STYLES */
+/* DEFAULT <i> STYLE */
+.sortable-one-options-list .sortable-one-check-label > em {
+    display: inline-block;
+    vertical-align: middle;
+    border-radius: 50%;
+    transition: 0.5s;
+    box-shadow: inset 0 0 0 8px #fff;
+    border: 1px solid gray;
+    background: gray;
+}
+
+/* CHECKBOX OVERWRITE STYLES */
+.sortable-one-options-list .sortable-one-check-label > em {
+    width: 25px;
+    margin-right: 5px;
+}
+
+/* CHECKBOX */
+.sortable-one-options-list .sortable-one-check-label > input + em:after {
+    content: "";
+    display: block;
+    height: 12px;
+    width:  12px;
+    margin: 2px;
+    border-radius: inherit;
+    transition: inherit;
+    background: gray;
+}
+
+.sortable-one-options-list .sortable-one-check-label > input:checked + em:after {
+    margin-left: 11px;
+    background:  #1e8cbe;
+}

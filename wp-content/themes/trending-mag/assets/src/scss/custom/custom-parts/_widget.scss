@@ -1,0 +1,533 @@
+
+// Everything about widgets
+
+
+.widget {
+
+	position: relative;
+}
+
+.widget .widget-title {
+
+	overflow-x: hidden;
+}
+
+.widget .widget-title h3 {
+	
+	position: relative;
+	padding-left: 15px;
+	overflow: hidden;
+}
+
+.widget .widget-title h3::before {
+
+    content: '';
+    border-left: 4px solid $secondary_color;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 20px;
+}
+
+.widget .widget-title h3::after {
+
+	content: "";
+    display: inline-block;
+    height: 0.7em;
+    width: 100%;
+    margin-right: -100%;
+    margin-left: 10px;
+    border-top: 1px solid $border_color;
+    vertical-align: bottom;
+
+}
+
+.secondary-widget-area .widget {
+
+	padding:30px 20px;
+}
+
+.footer.secondary-widget-area .widget {
+
+	padding:0;
+}
+
+.footer .widget .widget-title h3::after {
+
+	content:'';
+	display:none;
+}
+
+
+
+/*
+=====================================
+=
+= author widget
+=
+=========================== 
+*/
+
+
+.rm-author-widget .author-thumb a {
+	
+	display:inline-block;
+}
+
+.rm-author-widget .author-thumb img {
+	
+	-ms-border-radius:100%; // fallback
+	-moz-border-radius:100%; // fallback
+	border-radius: 63% 37% 30% 70% / 50% 45% 55% 50%; // actual
+}
+
+.rm-author-widget .widget-container {
+
+	text-align:center;
+}
+
+
+/*
+=====================================
+=
+=  Post widgets
+=
+=========================== 
+*/
+
+
+.rm-post-widget .rm-row {
+
+	margin:0;
+}
+
+.rm-post-widget .rm-col {
+
+	padding:0;
+}
+
+.rm-post-widget .rm-col.left {
+
+	flex:0 0 112px;
+	max-width:112px;
+}
+
+.rm-post-widget .rm-col.right {
+
+	flex:0 0 calc( 100% - 112px );
+	max-width: calc( 100% - 112px );
+	padding-left: 20px;
+}
+
+.rm-post-widget .thumb img {
+
+	display:block;
+	-ms-border-radius:100%; // fallback
+	-moz-border-radius:100%; // fallback
+	border-radius: 63% 37% 30% 70% / 50% 45% 55% 50%; // actual
+}
+
+.rm-post-widget .is-post-format {
+
+	left: 0;
+    top: -5px;
+}
+
+.rm-post-widget .is-post-format span {
+
+	@include border-radius(100%);
+}
+
+
+// popular posts 
+
+
+.rm-post-widget.popular-s1 .thumb img {
+
+	@include border-radius(10px);
+}
+
+.rm-post-widget.popular-s1 .is-post-format {
+
+	left: -10px;
+    top: -15px;
+}
+
+
+
+/*
+=====================================
+=
+= social widget
+=
+=========================== 
+*/
+
+
+.rm-social-widget .social-icons ul {
+
+	margin:-4px -2px;
+} 
+
+.rm-social-widget .social-icons ul li a {
+
+	display:inline-block;
+	margin:4px 2px;
+	line-height: 40px;
+	width:40px;
+	height:40px;
+	padding:0;
+	text-align:center;
+	-ms-border-radius: 100%;
+    -moz-border-radius: 100%;
+    border-radius: 63% 37% 30% 70% / 50% 45% 55% 50%;
+}
+
+.rm-social-widget .social-icons ul li.fb a {
+
+	background:$facebook;
+}
+
+.rm-social-widget .social-icons ul li.tw a {
+
+	background:$twitter;
+}
+
+.rm-social-widget .social-icons ul li.insta a {
+
+	background:$instagram;
+}
+
+.rm-social-widget .social-icons ul li.spotify a {
+
+	background:$spotify;
+}
+
+.rm-social-widget .social-icons ul li.pin a {
+
+	background:$pinterest;
+}
+
+.rm-social-widget .social-icons ul li.linkedin a {
+
+	background:$linkedin;
+}
+
+.rm-social-widget .social-icons ul li.vk a {
+
+	background:$vk;
+}
+
+.rm-social-widget .social-icons ul li.reddit a {
+
+	background:$reddit;
+}
+
+.rm-social-widget .social-icons ul li.yt a {
+
+	background:$youtube;
+}
+
+.rm-social-widget .social-icons ul li.dribble a {
+
+	background:$dribble;
+}
+
+
+/*
+=====================================
+=
+= Custom category widget
+=
+=========================== 
+*/
+
+.rm-custom-cats-widget a {
+	
+	position:relative;
+	display:block;
+	width:100%;
+    @include border-radius(5px);
+    overflow:hidden;
+}
+
+.rm-custom-cats-widget .cat-item {
+	
+	position:relative;
+	width:100%;
+	padding:25px 20px;
+	background-position: center;
+	background-size: cover;
+	background-repeat:no-repeat;
+}
+
+.rm-custom-cats-widget .inner-content {
+	
+	position:relative;
+	display:flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-between;
+	z-index: 5;
+}
+
+.rm-custom-cats-widget .inner-mask {
+	
+	position:absolute;
+	left:0;
+	right:0;
+	top:0;
+	bottom:0;
+	width:100%;
+	height:100%;
+	z-index:2;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(40%, rgba(0,0,0,0.5)), to(#000));
+    background-image: linear-gradient(180deg, transparent 0%, rgba(0,0,0,0.5) 40%, #000 100%);
+}
+
+.rm-custom-cats-widget span {
+
+	@include transation_delay();
+}
+
+.rm-custom-cats-widget span.cat-post-count {
+
+	width:40px;
+	line-height:42px;
+	height:40px;
+	text-align:center;
+	@include border-radius(100%);
+}
+
+
+
+/*
+=====================================
+=
+= Instagram widget
+=
+=========================== 
+*/
+
+.secondary-widget-area .rm-instagram-widget .widget-title {
+
+    display:block;
+}
+
+.rm-instagram-widget ul {
+
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    list-style: none;
+    padding-left: 0;
+    list-style: none;
+}
+
+.rm-instagram-widget ul li,
+.rm-instagram-widget ul li a {
+
+    display:block;
+}
+
+.secondary-widget-area .rm-instagram-widget ul li {
+
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+    padding: 2px;
+    background: transparent;
+}
+
+.secondary-widget-area .rm-instagram-widget .follow-permalink a {
+    
+    display:block;
+    padding: 12px 10px;
+    text-decoration: none;
+    text-align:center;
+    line-height: 1;
+    @include border-radius(25px);
+}
+
+
+// Insta widget at footer top 
+
+
+.rm-instagram-widget .widget-title {
+
+    display:none;
+}
+
+.primary-widget-area .rm-instagram-widget ul {
+
+	padding-bottom: 50px;
+}
+
+.primary-widget-area .rm-instagram-widget ul li {
+	
+	position:relative;
+    flex: 0 0 23%;
+    max-width: 23%;
+    background: transparent;
+    margin-left: -3.75%;
+    @include transation_delay(); 
+}
+
+.primary-widget-area .rm-instagram-widget ul li:nth-child(6) {
+
+	display:none;
+}
+
+.primary-widget-area .rm-instagram-widget ul li:nth-child(1) {
+
+	margin-left: 0;
+	z-index:1;
+}
+
+.primary-widget-area .rm-instagram-widget ul li:nth-child(2) {
+
+	z-index:2;
+}
+
+.primary-widget-area .rm-instagram-widget ul li:nth-child(3) {
+
+	z-index:3;
+}
+
+.primary-widget-area .rm-instagram-widget ul li:nth-child(4) {
+
+	z-index:4;
+}
+
+.primary-widget-area .rm-instagram-widget ul li:nth-child(5) {
+
+	z-index:5;
+}
+
+.primary-widget-area .rm-instagram-widget ul li:nth-child(even) {
+
+	margin-top: 45px;
+
+}
+
+.primary-widget-area .rm-instagram-widget ul li:hover {
+
+	-webkit-transform: translateY(20px);
+    transform: translateY(20px);
+}
+
+.primary-widget-area .rm-instagram-widget .follow-permalink {
+
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+.primary-widget-area .rm-instagram-widget .follow-permalink a {
+	
+	position:relative;
+}
+
+.primary-widget-area .rm-instagram-widget .follow-permalink a:before {
+
+	content:'\f16d';
+	font-family:fontAwesome;
+	display:inline-block;
+	margin-right: 10px;
+}
+
+.primary-widget-area .rm-instagram-widget .follow-permalink a:after {
+
+	content: '';
+    width: 30px;
+    height: 2px;
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    right: -35px;
+    transform: translateY(-50%);
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.primary-widget-area .rm-instagram-widget .follow-permalink a:hover:after {
+
+	content:'';
+	width:50px;
+	right:-60px;
+}
+
+
+/*
+=====================================
+=
+= Featured category widget
+=
+=========================== 
+*/
+
+.primary-widget-area .widget.rm-featured-cats {
+
+	margin-bottom: 30px;
+}
+
+.rm-featured-cats .widget-title {
+
+	display:none;
+}
+
+.rm-featured-cats figure {
+	
+	position:relative;
+	overflow:hidden;
+	height:350px;
+	padding:30px;
+	background-position:center;
+	background-size:cover;
+	background-repeat:no-repeat;
+	@include border-radius(10px);
+}
+
+.rm-featured-cats .inner-content {
+	
+	position:absolute;
+	left:0;
+	right:0;
+	top:auto;
+	bottom:0;
+	padding:30px;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(40%, rgba(0,0,0,0.6)), to(#000));
+    background-image: linear-gradient(180deg, transparent 0%, rgba(0,0,0,0.6) 40%, #000 100%);
+}
+
+.rm-featured-cats .cat-post-count {
+	
+	display:inline-block;
+	text-align:center;
+	line-height:50px;
+	height:50px;
+	width:50px;
+	@include border-radius(100%);
+	border-radius: 63% 37% 30% 70% / 50% 45% 55% 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

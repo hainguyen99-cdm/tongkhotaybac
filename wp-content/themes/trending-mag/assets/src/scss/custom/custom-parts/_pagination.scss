@@ -1,0 +1,80 @@
+
+// pagination 
+
+.rm-pagination nav.pagination .nav-links {
+
+	margin:-4px -4px;
+}
+
+.rm-pagination nav.pagination .nav-links .page-numbers {
+	
+	display:inline-block;
+	line-height: 45px;
+	height:45px;
+	width: 45px;
+	text-align: center;
+	margin:4px 4px;
+	@include border-radius(100%);
+}
+
+.rm-pagination nav.pagination .nav-links .page-numbers.next,
+.rm-pagination nav.pagination .nav-links .page-numbers.prev  {
+	
+	position: relative;
+	width:auto;
+	height:auto;
+	background:transparent;
+	border-radius: 0;
+}
+
+.rm-pagination nav.pagination .nav-links .page-numbers.prev {
+
+	padding-left: 20px;
+}
+
+.rm-pagination nav.pagination .nav-links .page-numbers.next {
+
+	padding-right: 20px;
+}
+
+.rm-pagination nav.pagination .nav-links .page-numbers.next::before,
+.rm-pagination nav.pagination .nav-links .page-numbers.prev::before {
+
+	content:'';
+    width:20px;
+    height:1px;
+    position:absolute;
+    left: auto;
+    top: 50%;
+    right: -6px;
+    -webkit-transform:translateY(-50%);
+    -moz-transform:translateY(-50%);
+    -o-transform:translateY(-50%);
+    -ms-transform:translateY(-50%);
+    transform:translateY(-50%);
+    z-index: 2;
+    @include transation_delay();
+}
+
+.rm-pagination nav.pagination .nav-links .page-numbers.prev::before {
+
+	left:-6px;
+	right:auto;
+}
+
+.rm-pagination nav.pagination .nav-links .page-numbers.next:hover {
+
+	padding-right: 40px;
+}
+
+.rm-pagination nav.pagination .nav-links .page-numbers.prev:hover {
+
+	padding-left: 40px;
+}
+
+.rm-pagination nav.pagination .nav-links .page-numbers.next:hover::before,
+.rm-pagination nav.pagination .nav-links .page-numbers.prev:hover::before {
+	
+	content:'';
+	width:35px;
+}

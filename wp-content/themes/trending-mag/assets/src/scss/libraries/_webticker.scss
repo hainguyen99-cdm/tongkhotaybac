@@ -1,0 +1,138 @@
+.tickeroverlay-left {
+    display: block;
+    pointer-events: none;
+    position: absolute;
+    z-index: 30;
+    height: 12px;
+    width: 150px;
+    top: 0;
+    left: -2px
+}
+
+.menu-bar .navbar-nav>li>a:hover {
+    transition: 1s all
+}
+
+.menu-bar .navbar-nav>li>.dropdown-menu {
+    display: none
+}
+
+.menu-bar .dropdown:hover .dropdown-menu {
+    display: block
+}
+
+.tickeroverlay-right {
+    display: block;
+    pointer-events: none;
+    position: absolute;
+    z-index: 30;
+    height: 12px;
+    width: 150px;
+    top: 0;
+    right: -2px
+}
+
+.tickercontainer {
+    background: 0 0;
+    height: 60px;
+    margin: 0;
+    padding: 0;
+    overflow: hidden
+}
+
+.tickercontainer .mask {
+    position: relative;
+    padding-left: 10px;
+    padding-right: 10px;
+    top: 2px;
+    height: 60px;
+    background-color:#f1f1f1f1;
+    overflow: hidden;
+}
+
+ul.newsticker {
+    -webkit-transition: all 0s linear;
+    -moz-transition: all 0s linear;
+    -o-transition: all 0s linear;
+    transition: all 0s linear;
+    position: relative;
+    margin-left: 20px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0
+}
+
+ul.newsticker li {
+    float: left;
+    margin: 0;
+    padding-right: 40px;
+    line-height: 1
+}
+
+ul.newsticker a {
+    white-space: nowrap;
+    padding: 0;
+    color: #333;
+    font-family: roboto, sans-serif;
+    font-size: 12px;
+    margin: 0 40px 0 0;
+    font-weight: 400;
+    margin-top: 0
+}
+
+ul.newsticker a:hover {
+    text-decoration: none;
+    color: #e01212
+}
+
+ul.newsticker span {
+    margin: 0 10px 0 0
+}
+
+#webticker2 {
+    float: right
+}
+
+#webticker2 li {
+    float: right;
+    margin: 0;
+    padding-left: 15px
+}
+
+.nt_title {
+    background: #333;
+    color: #171717;
+    padding: 0;
+    font-size: 16px;
+    height: 60px;
+    color: white;
+    padding: 16px 30px;
+    text-transform: uppercase;
+}
+
+.nt_title i {
+    color: #e01212;
+    padding-left: 5px;
+    padding-right: 10px;
+    font-size: 18px
+}
+
+.nt_wrapper {
+    position: relative;
+    margin-top: 4px
+}
+.nt_wrapper ul li{
+  list-style:none;
+  float: left;
+  margin-left: 15px;
+}
+.nt_wrapper ul li  img{
+  height: 60px;
+  width: auto;
+  margin-right: 15px;
+
+}
+
+.nt_wrapper ul li a figure{
+  display: inline-table;
+}

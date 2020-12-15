@@ -1,0 +1,189 @@
+
+// All common spacings 
+// Will re-do spacing on media query ( 1024px, 768px & 574px )
+
+
+// margin
+
+.excerpt p,
+.author-bio p,
+.page-title h1,
+.page-title h2,
+.page-title h3,
+.copyright-info p,
+.mastheader .widget,
+.no-results.not-found h1,
+.category-description p,
+.widget .widget-title h3,
+.brick-item .post-title h3,
+.author-box .author-desc p,
+.rm-banner-s1 .post-title h2,
+.rm-banner-s2 .post-title h2,
+.rm-banner-s3 .post-title h2,
+.related-posts .post-title h4,
+.rm-post-widget .post-title h4,
+.related-posts .section-title h3,
+.rm-blog-list-s1 .post-title h3,
+.rm-blog-list-s3 .post-title h3,
+.error-page-entry .error-message p,
+.author-box .top-wrap .author-name h3,
+.rm-blog-list-s1 .bottom-block .entry-metas,
+.rm-custom-cats-widget .cats-items a:last-child,
+.rm-post-widget .widget-container article:last-child,
+.archive-page-wrap .mega-archive-box .rm-breadcrumb,
+.single-page-s1 .single-page-entry .related-posts .entry-metas {
+
+	margin-bottom: 0;
+}
+
+.single-page-s2 .page-title,
+.single-page-s4 .page-title,
+.rm-post-widget .post-title,
+.related-posts .post-title,
+.author-box .top-wrap .author-name,
+.archive-page-wrap .mega-archive-box .page-title {
+
+	margin-bottom: 10px;
+}
+
+
+.brick-item .post-title,
+.rm-banner-s1 .post-title,
+.rm-banner-s2 .post-title,
+.rm-banner-s3 .post-title,
+.single-page-s1 .page-title,
+.single-page-s1 .entry-cats,
+.single-page-s3 .page-title,
+.single-page-s3 .entry-cats,
+.rm-blog-list-s3 .post-title,
+.rm-blog-list-s3 .excerpt,
+.rm-blog-list-s3 .entry-metas,
+.rm-blog-list-s1 .entry-cats,
+.rm-blog-list-s1 .post-title,
+.rm-blog-list-s1 .entry-metas,
+.rm-banner-s1 .entry-cats,
+.no-results.not-found .page-header   {
+
+	margin-bottom: 15px;
+} 
+
+h1, 
+h2, 
+h3, 
+h4, 
+h5, 
+h6,
+.author-box .author-desc,
+.brick-item .entry-metas,
+.brick-item .entry-cats,
+.rm-banner-s1 .entry-metas,
+.rm-banner-s2 .entry-cats,
+.rm-banner-s3 .entry-cats,
+.rm-blog-list-s3 .entry-cats,
+.rm-author-widget .author-bio,
+  {
+	margin-bottom: 15px;
+}
+
+.page-title,
+.editor-entry,
+.rm-breadcrumb,
+.widget .widget-title,
+.related-posts article,
+.rm-featured-cats .card,
+.rm-blog-list-s1 .excerpt,
+.related-posts .section-title, 
+.rm-author-widget .author-thumb,
+.rm-custom-cats-widget .cats-items a,
+.rm-blog-list-s1 .is-post-format-block,
+.rm-post-widget .widget-container article,
+.single-page-s1 .single-page-entry .entry-metas {
+
+	margin-bottom: 30px;
+}
+
+.widget,
+.entry-tags,
+.mastbanner,
+.mastheader,
+.author-box,
+.related-posts,
+.post-navigation,
+.category-description,
+.footer .footer-mid .widget,
+.single-page-s3 .single-s3-top,
+.single-page-s4 .single-s4-top,
+.primary-widget-area .widget,
+.secondary-widget-area .widget,
+.error-page-entry .error-message,
+.rm-blog-list-s1 .bottom-block .excerpt,
+.archive-page-wrap .mega-archive-box .box-outer,
+.single-page-s1 .single-page-entry .featured-image,
+.default-page-s1 .default-page-entry .featured-image,
+.single-page-s4 .rm-breadcrumb {
+
+	margin-bottom: 40px;
+}
+
+.secondary-widget-area .rm-instagram-widget .follow-permalink a {
+
+	margin-top: 30px;
+}
+
+.footer .footer-mid .widget,
+.footer .footer-bottom {
+
+	margin-top: 40px;
+}
+
+.rm-blog-list-s1 article,
+.rm-blog-list-s3 article,
+.main-content-area-wrap,
+.rm-bricks-row .brick-item {
+
+	margin-bottom: 50px;
+}
+
+
+// padding 
+
+
+.rm-blog-list-s1 article:last-child,
+.rm-post-widget .widget-container article:last-child {
+
+	padding-bottom:0;
+}
+
+
+.related-posts .section-title {
+
+	padding-bottom:10px;
+}
+
+.rm-post-widget .widget-container article {
+
+	padding-bottom: 30px;
+}
+
+.author-box {
+
+	padding:30px;
+}
+
+.footer .site-identity,
+.rm-blog-list-s1 article {
+
+	padding-bottom: 50px;
+}
+
+.error-page-entry {
+
+	padding:60px 0;
+}
+
+.footer .site-identity {
+
+	padding-top: 70px;
+}
+
+

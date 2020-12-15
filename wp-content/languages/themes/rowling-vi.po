@@ -1,0 +1,214 @@
+# Translation of Themes - Rowling in Vietnamese
+# This file is distributed under the same license as the Themes - Rowling package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2018-04-20 08:22:29+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/3.0.0-alpha\n"
+"Language: vi_VN\n"
+"Project-Id-Version: Themes - Rowling\n"
+
+#. Theme Name of the theme
+msgid "Rowling"
+msgstr "Rowling"
+
+#: index.php:18
+msgid "Search results: \"%s\""
+msgstr "Kết quả tìm kiếm cho \"%s\""
+
+#: content.php:41
+msgid "% Comments"
+msgstr "% Bình luận"
+
+#: content.php:41
+msgid "1 Comment"
+msgstr "1 Bình luận"
+
+#: content.php:41
+msgid "0 Comments"
+msgstr "Chưa có bình luận"
+
+#: footer.php:14
+msgid "Theme by %s"
+msgstr "Giao diện bởi %s"
+
+#: inc/widgets/recent-posts.php:103
+msgid "Number of posts to display"
+msgstr "Số bài hiển thị"
+
+#: inc/widgets/recent-posts.php:9
+msgid "Displays recent blog entries."
+msgstr "Hiển thị bài viết mới nhất."
+
+#: inc/widgets/recent-comments.php:104 inc/widgets/recent-posts.php:105
+msgid "Defaults to 5 if empty"
+msgstr "Mặc định là 5 nếu không chọn"
+
+#: inc/widgets/recent-comments.php:102
+msgid "Number of comments to display"
+msgstr "Số bình luận hiển thị"
+
+#: inc/widgets/recent-comments.php:9
+msgid "Displays recent comments with user avatars."
+msgstr "Hiển thị bình luận mới nhất với ảnh đại diện."
+
+#: inc/widgets/recent-comments.php:7
+msgid "Recent Comments"
+msgstr "Bình luận mới nhất"
+
+#: inc/widgets/recent-comments.php:97 inc/widgets/recent-posts.php:98
+msgid "Title"
+msgstr "Tiêu đề"
+
+#: singular.php:96
+msgid "Pages:"
+msgstr "Trang:"
+
+#: singular.php:40 singular.php:42
+msgid "Comments"
+msgstr "Phản hồi"
+
+#: singular.php:34
+msgid "on"
+msgstr "trong"
+
+#: singular.php:34
+msgid "by"
+msgstr "Bởi"
+
+#: singular.php:34
+msgid "Posted"
+msgstr "Đã đăng"
+
+#: inc/widgets/recent-posts.php:7 sidebar.php:25
+msgid "Recent Posts"
+msgstr "Bài viết mới"
+
+#: searchform.php:9
+msgid "Search form"
+msgstr "Mẫu tìm kiếm"
+
+#: index.php:79
+msgid "No results. Try again, would you kindly?"
+msgstr "Không có kết quả. Muốn thử lại?"
+
+#: inc/classes/class-rowling-customizer.php:30
+msgid "Accent Color"
+msgstr "Tông màu chính"
+
+#: inc/classes/class-rowling-customizer.php:44
+msgid "Logo"
+msgstr "Logo"
+
+#: inc/classes/class-rowling-customizer.php:18
+msgid "Allows you to customize theme settings for Rowling."
+msgstr "Cho phép bạn tuỳ biến giao diện Rowling."
+
+#: inc/classes/class-rowling-customizer.php:15
+msgid "Options for Rowling"
+msgstr "Tuỳ chọn cho Rowling"
+
+#: functions.php:500
+msgid "Reply"
+msgstr "Trả lời"
+
+#: functions.php:494
+msgid "Awaiting moderation"
+msgstr "Chờ duyệt"
+
+#: functions.php:465
+msgid "Comment by post author"
+msgstr "Bình luận bởi tác giả"
+
+#: functions.php:447 functions.php:488 singular.php:34
+msgid "Edit"
+msgstr "Chỉnh sửa"
+
+#: functions.php:447
+msgid "Pingback:"
+msgstr "Pingback:"
+
+#: functions.php:314
+msgid "Read More"
+msgstr "Đọc tiếp"
+
+#: functions.php:213
+msgid "Read Next"
+msgstr "Tiếp theo"
+
+#: functions.php:143
+msgid "Widgets in this area will be shown in the sidebar."
+msgstr "Widget ở mục này sẽ hiển thị ở cột bên phải."
+
+#: functions.php:141
+msgid "Sidebar"
+msgstr "Thanh bên"
+
+#: functions.php:34
+msgid "Social Menu"
+msgstr "Lựa chọn xã hội"
+
+#: functions.php:33
+msgid "Secondary Menu"
+msgstr "Menu phụ"
+
+#: functions.php:32
+msgid "Primary Menu"
+msgstr "Menu chính"
+
+#: footer.php:9
+msgid "To the top"
+msgstr "Lên đầu tiên"
+
+#: comments.php:79
+msgid "Leave a Reply to"
+msgstr "Gửi trả lời cho"
+
+#: comments.php:78
+msgid "Leave a Reply"
+msgstr "Trả lời"
+
+#: pagination.php:58 comments.php:58
+msgid "Next"
+msgstr "Tiếp"
+
+#: pagination.php:10 comments.php:57
+msgid "Previous"
+msgstr "Trang trước"
+
+#: comments.php:42
+msgid "Pingback"
+msgid_plural "Pingbacks"
+msgstr[0] "Pingbacks"
+
+#: comments.php:23
+msgid "Add Comment"
+msgstr "Gửi bình luận"
+
+#: comments.php:19 comments.php:82 singular.php:41
+msgid "Comment"
+msgid_plural "Comments"
+msgstr[0] "Bình luận"
+
+#: index.php:23
+msgid "Page"
+msgstr "Trang"
+
+#: 404.php:19
+msgid "It seems like you have tried to open a page that doesn't exist. It could have been deleted, moved, or it never existed at all. Either way, you're welcome to search for what you are looking for with the form below."
+msgstr "Nội dung này không tồn tại. Bạn hãy thử tìm kiếm bằng form bên dưới."
+
+#: 404.php:12
+msgid "These are Not the Results You're Looking For"
+msgstr "Không có kết quả phù hợp"
+
+#: 404.php:9
+msgid "Error 404"
+msgstr "Lỗi 404"
+
+#. Author of the theme
+msgid "Anders Norén"
+msgstr "Anders Norén"

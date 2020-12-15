@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="34.345" height="34.318" viewBox="0 0 34.345 34.318">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" y1="0.837" x2="0.5" y2="-0.07" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ffc107"/>
+      <stop offset="1" stop-color="#fff"/>
+    </linearGradient>
+    <filter id="star_5_" x="0" y="0" width="34.345" height="34.318" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-color="#e84e3b" flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#star_5_)">
+    <path id="star_5_2" data-name="star (5)" d="M14.922,5.489l-4.712-.72L8.1.27a.5.5,0,0,0-.867,0l-2.111,4.5-4.712.72a.479.479,0,0,0-.27.808L3.56,9.806l-.809,4.961a.479.479,0,0,0,.7.5l4.209-2.326,4.209,2.327a.479.479,0,0,0,.7-.5l-.809-4.961L15.192,6.3a.479.479,0,0,0-.27-.809Z" transform="translate(9.51 6.48)" stroke="#ffc107" stroke-width="1" fill="url(#linear-gradient)"/>
+  </g>
+</svg>
